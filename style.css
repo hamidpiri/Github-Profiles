@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+/* 4c2885 */
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #2a2a72;
+}
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  background-color: #4c2885;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #2a2a72;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+form {
+  max-width: 700px;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  display: block;
+  background-color: #4c2885;
+  padding: 1rem;
+  border-radius: 10px;
+  border: #4c2885 solid 1px;
+  color: #fff;
+  outline: none;
+}
+
+.profile-details ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+}
+.container {
+}
